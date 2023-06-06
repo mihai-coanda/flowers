@@ -37,11 +37,6 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
-    <deliverable id="SaaSas-1669109101376" name="SaaSas">
-        <context idref="flowers"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
-    </deliverable>
     <deliverable id="Latest-1669124328476" name="Latest">
         <context idref="flowers"/>
         <output href="webhelp-output"/>
