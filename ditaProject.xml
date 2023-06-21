@@ -3,9 +3,6 @@
     <context id="test_cristi_banica" name="test Cristi Banica">
         <input href="flowers.ditamap"/>
     </context>
-    <context id="flowers" name="All Flowers ctxt">
-        <input href="flowers.ditamap"/>
-    </context>
     <context id="spring_flowers" name="Spring Flowers ctxt">
         <input href="spring_flowers.ditamap"/>
     </context>
