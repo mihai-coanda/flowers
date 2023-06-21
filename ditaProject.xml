@@ -39,11 +39,6 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
-    <deliverable id="Aonother_one-1685532758086" name="Another one">
-        <context idref="autumn_flowers"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
-    </deliverable>
     <deliverable id="New_One-1686572469758" name="New One">
         <context idref="winter_flowers"/>
         <output href="webhelp-output"/>
