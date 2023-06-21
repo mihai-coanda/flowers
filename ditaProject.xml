@@ -24,11 +24,6 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
-    <deliverable id="Flowers_deliverable-728" name="Flowers deliverable">
-        <context idref="flowers"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
-    </deliverable>
     <deliverable id="Latest-1669124328476" name="Latest">
         <context idref="flowers"/>
         <output href="webhelp-output"/>
