@@ -22,9 +22,4 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
-    <deliverable id="Flowers_WebHelp-1687521034649" name="Flowers WebHelp">
-        <context idref="all_flowers_ctxt"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
-    </deliverable>
 </project>
