@@ -32,9 +32,4 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
-    <deliverable id="To_Delete_2-1687530752814" name="To Delete 2">
-        <context idref="all_flowers_ctxt"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
-    </deliverable>
 </project>
