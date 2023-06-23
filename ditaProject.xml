@@ -27,4 +27,9 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
+    <deliverable id="To_Delete-1687525118932" name="To Delete">
+        <context idref="all_flowers_ctxt"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
 </project>
