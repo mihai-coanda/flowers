@@ -7,7 +7,9 @@
             the Northern hemisphere, and during March - June in the Southern hemisphere. Crops are
             harvested during Autumn. Leaves
             chang<?oxy_delete author="Mary Doe" timestamp="20230623T112911+0000" content="e"?><?oxy_insert_start author="Mary Doe" timestamp="20230623T112911+0000"?>ing<?oxy_insert_end?>
-            color are at their beautiful best.</p>
+            color are at their
+            <?oxy_insert_start author="Mary Doe" timestamp="20230623T112917+0000"?>most
+            <?oxy_insert_end?>beautiful best.</p>
         <p>Some of the flowers blooming in
                 autumn<indexterm>flowers<indexterm>autumn</indexterm></indexterm> are: Acashia,
             Allium, Alstromeria, Amaranthus, Anemone, Baby's Breath, Bittersweet, Carnation, China
