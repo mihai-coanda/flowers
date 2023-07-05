@@ -24,8 +24,8 @@
     </deliverable>
     <deliverable id="Flowers_WebHelp-1687522336920" name="Flowers WebHelp">
         <context idref="all_flowers_ctxt"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf"/>
     </deliverable>
     <deliverable id="To_Delete-1687530629863" name="To Delete">
         <context idref="all_flowers_ctxt"/>
