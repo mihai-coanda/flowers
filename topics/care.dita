@@ -5,14 +5,49 @@
     <shortdesc>When caring for your flower garden you want to feed your plants properly, control
         pests and weeds.</shortdesc>
     <body>
-        <p>When caring for your flower gardefdsfdsn you want to feed your plants properly, control
-            pests and weeds. Good soil is a must to successful gardening, landscaping, and healthy
+        <p>When caring for your flower garden you want to feed your plants properly, control pests
+            and weeds. Good soil is a must to successful gardening, landscaping, and healthy
             flowers. You have to
             <indexterm>tasks<indexterm>preparation</indexterm></indexterm>balance the soil structure
             with nutrients and regulate the pH to cover your plants'
             needs.<?oxy_comment_start author="Mary" timestamp="20120510T121702+0300" comment="Let&apos;s add information about fertilizers."?><?oxy_comment_start author="John" timestamp="20120510T121814+0300" comment="We must include information about fertilizers impact to the environment." mid="1"?>
             And above all, remember that many flower gardens fail because they just don't get enough
             of your attention.<?oxy_comment_end?><?oxy_comment_end mid="1"?></p>
+        <codeblock outputclass="language-xml">&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+&lt;topic id="簡短說明_0">
+    &lt;title>簡短說明&lt;/title>
+    &lt;body>
+        &lt;section id="ariaid-title1">&lt;title>DolphinDB客户端软件教程&lt;/title>&lt;p>DolphinDB客户端包括：GUI客户端, VS
+                Code插件, Web版客户端和命令行。&lt;/p>&lt;b id="ariaid-title2">DolphinDB GUI&lt;/b>&lt;p>DolphinDB
+                GUI是基于Java的功能最齐全的图形化编程以及数据浏览界面，可在任何支持Java的操作系统上使用，例如: Windows, Linux,
+                以及Mac。该客户端运行速度快，功能齐全，用户友好，适合用于管理和开发DolphinDB脚本、模块，以及数据库交互，查看运行结果等。&lt;/p>&lt;p>用户能够在GUI客户端进行以下操作：查找/替换文本、保留字高亮显示、系统函数提示、行号显示，选择部分代码执行、执行结果浏览、查看log信息、临时变量浏览、数据库浏览。通过Project浏览器，可以浏览所有项目。通过Database浏览器，可以浏览所有DFS数据库以及其分区表的schema。此外，用户能够通过界面中的下拉列表选择已建立的session，使用SQL语言进行脚本编写的用户能够从SQL方言兼容性列表中为当前session选择MySQL、Oracle或DolphinDB作为兼容的SQL方言。&lt;/p>&lt;b
+                id="ariaid-title3">主要功能&lt;/b>&lt;b id="ariaid-title4"
+                >Server&lt;/b>&lt;p>GUI菜单中的server是指DolphinDB数据库服务器。完成添加后，会自动出现在server下拉菜单中。默认添加的server为localhost:8848。&lt;/p>&lt;p>&lt;b>注意&lt;/b>：连接远端服务器，我们建议连接数据节点，因为DolphinDB关于数据库的操作都是在数据节点上执行的。&lt;/p>&lt;b
+                id="ariaid-title5">Login&lt;/b>&lt;p>登录数据库服务器主要有三种方法：&lt;/p>&lt;ul
+                id="ul_49f0dd70-90ea-4f24-afcb-a2fc5e4fcb64">
+                &lt;li>
+                    &lt;p>在添加 server 的时候指定用户名和密码。默认的管理员初始账号和密码为：admin/123456。&lt;/p>
+                &lt;/li>
+                &lt;li>
+                    &lt;p>点击界面中的 &lt;b>Login&lt;/b> 按钮&lt;/p>
+                &lt;/li>
+                &lt;li>
+                    &lt;p>在脚本中使用&lt;codeph>login&lt;/codeph>函数&lt;/p>
+                &lt;/li>
+            &lt;/ul>&lt;b id="ariaid-title6"
+                >Workspace&lt;/b>&lt;p>第一次启动GUI时，首先会要求用户指定workspace路径，用于项目管理。Workspace下面可以有多个项目。一个用户只能同时使用一个workspace。&lt;/p>&lt;b
+                id="ariaid-title7">Project&lt;/b>&lt;p>指定workspace后，可以通过 &lt;codeblock>New
+              Project&lt;/codeblock>来创建新的项目，也可以通过 &lt;codeblock>Import
+                Folder&lt;/codeblock>来导入已有的项目。&lt;/p>&lt;b id="ariaid-title8"
+                >File&lt;/b>&lt;p>创建project后，用户可以在project下面通过 &lt;codeph>New Folder&lt;/codeph>以及
+                &lt;codeblock>New
+              File&lt;/codeblock>来生成脚本目录以及脚本文件。脚本文件创建之后，即可通过编辑器来编写、修改、以及执行脚本。&lt;/p>&lt;b
+                id="ariaid-title9"
+                >程序执行及结果查看&lt;/b>&lt;p>GUI编程界面提供代码查询、修改、高亮显示、函数提示等功能。用户可以选择部分代码执行，也可以点击文件执行代码。执行完毕，可以立刻看到执行结果，以及查看所有的局部变量和共享变量的值。&lt;/p>&lt;/section>
+    &lt;/body>
+&lt;/topic>
+</codeblock>
         <p>
             <table frame="none">
                 <title>Flowers</title>
