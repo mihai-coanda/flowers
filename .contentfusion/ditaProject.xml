@@ -6,4 +6,10 @@
             <ditaval href="../spring_flowers.ditamap"/>
         </profile>
     </context>
+    <publication id="webhelp" transtype="webhelp-responsive"/>
+    <deliverable id="Spring-1695881199712" name="Spring">
+        <context idref="BXHWmydQJwCwzID"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
 </project>
