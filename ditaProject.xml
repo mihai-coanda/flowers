@@ -5,6 +5,9 @@
     </context>
     <context id="spring_flowers" name="Spring Flowers ctxt">
         <input href="spring_flowers.ditamap"/>
+         <profile>
+            <ditaval href="winter_flowers.ditamap"/>
+        </profile>
     </context>
     <context id="summer_flowers" name="Summer Flowers ctxt">
         <input href="summer_flowers.ditamap"/>
