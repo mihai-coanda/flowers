@@ -24,7 +24,7 @@
         <output href="pdf-output"/>
         <publication idref="pdf"/>
     </deliverable>
-    <deliverable id="sumer-1697196053438" name="sumer">
+    <deliverable id="sumer-1697196053438" name="Summer Only">
         <context idref="LbYkPaCKLboRutO"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
