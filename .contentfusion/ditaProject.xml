@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project xmlns="https://www.dita-ot.org/project">
+    <context id="LbYkPaCKLboRutO" name="sumer">
+        <input href="../flowers.ditamap"/>
+        <profile>
+            <ditaval href="../summer_flowers.ditamap"/>
+        </profile>
+    </context>
     <context id="BXHWmydQJwCwzID" name="Spring Flowers">
         <input href="../flowers.ditamap"/>
         <profile>
