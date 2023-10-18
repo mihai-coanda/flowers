@@ -26,4 +26,9 @@
     </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
     <publication id="pdf" transtype="pdf-css-html5"/>
+    <deliverable id="Summer_Flowers_WebHelp-1697611592165" name="Summer Flowers WebHelp">
+        <context idref="LbYkPaCKLboRutO"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
 </project>
