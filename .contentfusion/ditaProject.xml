@@ -42,4 +42,9 @@
         <output href="pdf-output"/>
         <publication idref="pdf"/>
     </deliverable>
+    <deliverable id="Flowers_WebHelp-1697612239996" name="Flowers WebHelp">
+        <context idref="GHNluhfUVJTgmmO"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
 </project>
