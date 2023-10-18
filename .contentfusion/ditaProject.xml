@@ -31,4 +31,9 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
+    <deliverable id="Summer_Flowers_PDF-1697611708423" name="Summer Flowers PDF">
+        <context idref="LbYkPaCKLboRutO"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf"/>
+    </deliverable>
 </project>
