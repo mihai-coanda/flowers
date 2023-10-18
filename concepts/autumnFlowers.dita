@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="autumnFlowers">
-    <title>Autumn Flowers</title>
+    <title><?oxy_comment_start author="John Doe" timestamp="20231018T134018+0000" comment="Please review terms."?>Autumn
+        Flowers<?oxy_comment_end?></title>
     <conbody>
-        <p>Autumn is the season of the primary harvest. Autumn falls during September - November in
-            the Northern hemisphere, and during March - June in the Southern hemisphere. Crops are
-            harvested during Autumn. Leaves
-            chang<?oxy_delete author="Mary Doe" timestamp="20230623T112911+0000" content="e"?><?oxy_insert_start author="Mary Doe" timestamp="20230623T112911+0000"?>ing<?oxy_insert_end?>
-            color are at their
-            <?oxy_insert_start author="Mary Doe" timestamp="20230623T112917+0000"?>most
-            <?oxy_insert_end?>beautiful
-            <?oxy_delete author="Mary Doe" timestamp="20230623T112923+0000" content="best"?><?oxy_insert_start author="Mary Doe" timestamp="20230623T112923+0000"?>point<?oxy_insert_end?>.</p>
+        <p>Autumn is the season of the primary harvest. Autumn falls during
+            <?oxy_insert_start author="Mary Doe" timestamp="20231018T135557+0000"?>the months of
+            <?oxy_insert_end?>September - November in the Northern hemisphere, and during March -
+            June in the Southern hemisphere. Crops are harvested during
+            Autumn<?oxy_delete author="Mary Doe" timestamp="20231018T135621+0000" content=". Leaves change color are at their beautiful best"?><?oxy_insert_start author="Mary Doe" timestamp="20231018T135621+0000"?>
+            and leaves change colors in a beautiful display<?oxy_insert_end?>.</p>
         <p>Some of the flowers blooming in
                 autumn<indexterm>flowers<indexterm>autumn</indexterm></indexterm> are: Acashia,
             Allium, Alstromeria, Amaranthus, Anemone, Baby's Breath, Bittersweet, Carnation, China
