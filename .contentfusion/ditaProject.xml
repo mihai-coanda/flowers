@@ -12,12 +12,6 @@
             <ditaval href="../autumn_flowers.ditamap"/>
         </profile>
     </context>
-    <context id="xJXlSfzIsUZAOZS" name="Winter Flowers">
-        <input href="../flowers.ditamap"/>
-        <profile>
-            <ditaval href="../winter_flowers.ditamap"/>
-        </profile>
-    </context>
     <context id="LbYkPaCKLboRutO" name="Summer Flowers">
         <input href="../flowers.ditamap"/>
         <profile>
