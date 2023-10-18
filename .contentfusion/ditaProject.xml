@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project xmlns="https://www.dita-ot.org/project">
-    <context id="GHNluhfUVJTgmmO" name="All Flowers">
+    <context id="GHNluhfUVJTgmmO" name="Winter Flowers">
         <input href="../flowers.ditamap"/>
         <profile>
-            <ditaval href="../flowers.ditamap"/>
+            <ditaval href="../winter_flowers.ditamap"/>
         </profile>
     </context>
     <context id="MbzPaftaeXTZexO" name="Autumn Flowers">
