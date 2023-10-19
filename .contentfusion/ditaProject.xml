@@ -6,12 +6,6 @@
             <ditaval href="../flowers.ditaval"/>
         </profile>
     </context>
-    <context id="AGKViWXmGMmJqto" name="Winter Flowers">
-        <input href="../flowers.ditamap"/>
-        <profile>
-            <ditaval href="../winter_flowers.ditamap"/>
-        </profile>
-    </context>
     <context id="MbzPaftaeXTZexO" name="Autumn Flowers">
         <input href="../flowers.ditamap"/>
         <profile>
@@ -41,10 +35,5 @@
         <context idref="LbYkPaCKLboRutO"/>
         <output href="pdf-output"/>
         <publication idref="pdf"/>
-    </deliverable>
-    <deliverable id="Flowers_WebHelp-1697637733590" name="Flowers WebHelp">
-        <context idref="AGKViWXmGMmJqto"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
     </deliverable>
 </project>
