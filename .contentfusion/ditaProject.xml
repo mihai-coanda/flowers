@@ -3,7 +3,7 @@
     <context id="AGKViWXmGMmJqto" name="Winter Flowers">
         <input href="../flowers.ditamap"/>
         <profile>
-            <ditaval href="../flowers.ditamap"/>
+            <ditaval href="../winter_flowers.ditamap"/>
         </profile>
     </context>
     <context id="MbzPaftaeXTZexO" name="Autumn Flowers">
