@@ -36,6 +36,8 @@
     <deliverable id="Summer_Flowers_PDF-1697611708423" name="Summer Flowers PDF">
         <context idref="LbYkPaCKLboRutO"/>
         <output href="pdf-output"/>
-        <publication idref="pdf"/>
+        <publication idref="pdf">
+            <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
+        </publication>
     </deliverable>
 </project>
