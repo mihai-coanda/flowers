@@ -29,7 +29,9 @@
     <deliverable id="Summer_Flowers_WebHelp-1697611592165" name="Summer Flowers WebHelp">
         <context idref="LbYkPaCKLboRutO"/>
         <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
+        <publication idref="webhelp">
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+        </publication>
     </deliverable>
     <deliverable id="Summer_Flowers_PDF-1697611708423" name="Summer Flowers PDF">
         <context idref="LbYkPaCKLboRutO"/>
