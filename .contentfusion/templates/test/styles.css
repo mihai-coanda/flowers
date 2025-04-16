@@ -1,0 +1,237 @@
+/*#
+@colors&{"titlesAccentColor":"#ffffff","labelsAccentColor":"#000000","linksAccentColor":"#0078d4","backgroundAccentColor":"#0078d4","isDefault":true}&colors@
+@info@STYLES BASKET SELECTIONS METADATA@info@
+@name&styles_basket&name@
+@aspects&wh-tiles,theme-fonts-segoe-ui-semibold,page-size-a4,accent-colors-selector,titles-color-background,table-style-bottom-border,table-colors-black-white,code-colors-theme-github,notes-layout-two-lines,notes-colors-colorful,notes-style-borders-square,links-style-underline-on-hover,toc-numbering-empty,left-pages-header-empty,right-pages-header-empty,wh-menu-page-colors-white-color,wh-search-component-colors-links,wh-search-component-background-color,wh-footer-background-color-gray-light,wh-footer-padding-large,pdf-cover-title-colors-labels&aspects@
+@info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
+@info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
+#*/
+/* Bold selection in Publication TOC. WebHelp only. */
+@media screen {
+  .wh_publication_toc .active > .topicref a {
+    font-weight: bold;
+  }
+}
+/*accent-colors-selector*/
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="placeholder/figurelist"] > *[class~="topic/title"],
+*[class~="placeholder/tablelist"] > *[class~="topic/title"],
+*[class~="index/groups"]::before {
+  color: #ffffff;
+}
+*[class~='topic/shortdesc']:before {
+  color: #000000;
+}
+*[class~='topic/xref'],
+*[class~='topic/link'] {
+  color: #0078d4;
+}
+.related-links a,
+.related-links a:visited {
+  color: #0078d4;
+}
+a,
+a:hover,
+a:visited {
+  color: #0078d4;
+}
+*[class~='topic/table'] th {
+  background-color: #0078d4;
+}
+/*theme-fonts-segoe-ui-semibold*/
+@page {
+  font-family: 'Segoe UI Semibold', sans-serif;
+}
+.topictitle1,
+.topictitle2,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="map/topicref"],
+*[class~='topic/title'],
+*[class~='topic/thead'],
+*[class~="placeholder/figurelist"],
+*[class~="placeholder/tablelist"],
+*[class~="index/groups"]::before,
+*[class~="index/group"] > *[class~="index/label"],
+.wh_publication_title,
+.wh_top_menu,
+.wh_tile_title .topicref,
+.wh_main_page_toc_entry .topicref,
+.wh_index_terms span.wh_first_letter,
+.wh-letters li a {
+  font-family: 'Segoe UI Semibold', sans-serif;
+}
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6 {
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+/*titles-color-background*/
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~="toc/title"],
+*[class~="placeholder/figurelist"] > *[class~="topic/title"],
+*[class~="placeholder/tablelist"] > *[class~="topic/title"],
+*[class~="index/groups"]::before {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  background-color: #0078d4;
+}
+/*code-colors-theme-github*/
+*[class~='codeblock'] {
+  color: #111111;
+  background-color: #FFFFFF;
+}
+*[class~='hl-keyword'] {
+  color: #000000;
+}
+*[class~='hl-string'] {
+  color: #D25252;
+}
+*[class~='hl-tag-doctype-comment'],
+*[class~='hl-comment'] {
+  color: #777777;
+}
+*[class~='hl-number'] {
+  color: #33AAAA;
+}
+/*table-style-bottom-border*/
+*[class~='topic/entry'],
+*[class~='topic/stentry'] {
+  border: 0;
+  border-bottom: thin solid;
+}
+/*table-colors-black-white*/
+*[class~='topic/table'] th {
+  background-color: #ffffff;
+}
+/*notes-layout-two-lines*/
+span.note__title {
+  display: block;
+}
+/*notes-style-borders-square*/
+*[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
+  border: 1px solid;
+}
+/*notes-colors-colorful*/
+*[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
+  background-color: rgba(0, 120, 160, 0.09);
+  border-color: #0078A0;
+}
+*[class~="topic/note"].note_danger,
+*[class~="topic/note"].note_caution {
+  background-color: rgba(255, 202, 45, 0.1);
+  border-color: #606060;
+}
+*[class~="topic/note"].note_warning,
+*[class~="topic/note"].note_attention,
+*[class~="topic/note"].note_important {
+  background-color: rgba(255, 202, 45, 0.1);
+  border-color: #FFCA2D;
+}
+*[class~="topic/note"].note_restriction {
+  background-color: rgba(255, 226, 225, 0.32);
+  border-color: #FF342D;
+}
+/*links-style-underline-on-hover*/
+*[class~='topic/xref'],
+*[class~='topic/link'] {
+  text-decoration: none;
+}
+*[class~='topic/xref']:hover,
+*[class~='topic/link']:hover {
+  text-decoration: underline;
+}
+.related-links a,
+.related-links a:visited,
+a,
+a:visited {
+  text-decoration: none;
+}
+.related-links a:hover,
+a:hover {
+  text-decoration: underline;
+}
+/*page-size-a4*/
+@media print {
+  @page {
+    size: A4;
+  }
+}
+/*pdf-cover-title-colors-labels*/
+*[class~="front-page/front-page-title"] > *[class~="topic/title"] {
+  color: #000000;
+  background-color: transparent;
+}
+/*toc-numbering-empty*/
+*[class~="map/topicref"][is-chapter]:not([is-part]) > *[class~="map/topicmeta"] > *[class~="topic/navtitle"]:before {
+  content: none !important;
+}
+*[class~="topic/topic"][is-chapter]:not([is-part]) > *[class~="topic/title"]:before {
+  content: none !important;
+}
+/*left-pages-header-empty*/
+@page :left {
+  @top-left {
+    content: none;
+  }
+}
+/*right-pages-header-empty*/
+@page :right {
+  @top-right {
+    content: none;
+  }
+}
+/*wh-tiles*/
+/*wh-menu-page-colors-white-color*/
+.wh_header {
+  background-color: #0078d4;
+}
+.wh_top_menu > ul > li a,
+.wh_indexterms_link a::before {
+  color: #fff;
+}
+.wh_indexterms_link a span {
+  display: none;
+}
+.wh_top_menu ul li:hover {
+  background-color: #005ba1;
+}
+.wh_top_menu ul ul {
+  background-color: #005ba1;
+}
+.wh_top_menu ul ul li {
+  border-top-color: #0078d4;
+}
+/*wh-search-component-colors-links*/
+.wh_search_button {
+  background-color: #0078d4;
+}
+/*wh-search-component-background-color*/
+.wh_search_input {
+  background-color: #0078d4;
+}
+/*wh-footer-background-color-gray-light*/
+.wh_footer {
+  background-color: #bcbcbc;
+}
+/*wh-footer-padding-large*/
+.wh_footer {
+  padding: 50px 0;
+}
+
