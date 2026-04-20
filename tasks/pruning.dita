@@ -39,7 +39,7 @@ Rope Saws, Pole Prunner and Lopper,  Folding Prunner, Portable Buck Saws)."?>Fol
             <step>
                 <cmd>Clean up the area.
                     <?oxy_comment_start author="Mary" timestamp="20120510T110831+0300" comment="Burning the pest infested branches should be done under supervision. Please mention this."?>Burn
-                    all pest infested branches<?oxy_comment_end?>. Check a </cmd>
+                    all pest infested branches<?oxy_comment_end?>. Check all </cmd>
             </step>
         </steps>
     </taskbody>
