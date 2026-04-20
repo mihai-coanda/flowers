@@ -22,6 +22,9 @@ Rope Saws, Pole Prunner and Lopper,  Folding Prunner, Portable Buck Saws)."?>Fol
         </context>
         <steps>
             <step>
+                <cmd>Use protection gear.</cmd>
+            </step>
+            <step>
                 <cmd>Begin by cutting out all the dead branches.</cmd>
             </step>
             <step>
@@ -29,13 +32,15 @@ Rope Saws, Pole Prunner and Lopper,  Folding Prunner, Portable Buck Saws)."?>Fol
                     reduces bug and fungi infestation. </cmd>
             </step>
             <step>
+                <?oxy_comment_start author="Alex Jitianu" timestamp="20260420T141854+0000" comment="But not too much time!"?>
                 <cmd>Take your time! Work comfortably and do not make shortcuts when cutting stems.
-                    Use good quality, sharp tools.</cmd>
+                    Use good quality, sharp toolsfesaferfer.<?oxy_comment_end?></cmd>
             </step>
             <step>
                 <cmd>Clean up the area.
                     <?oxy_comment_start author="Mary" timestamp="20120510T110831+0300" comment="Burning the pest infested branches should be done under supervision. Please mention this."?>Burn
-                    all pest infested branches<?oxy_comment_end?>. </cmd>
+                    all pest infested branches<?oxy_comment_end?>. Check all fire laws in your area.
+                </cmd>
             </step>
         </steps>
     </taskbody>
