@@ -22,6 +22,9 @@ Rope Saws, Pole Prunner and Lopper,  Folding Prunner, Portable Buck Saws)."?>Fol
         </context>
         <steps>
             <step>
+                <cmd>Use</cmd>
+            </step>
+            <step>
                 <cmd>Begin by cutting out all the dead branches.</cmd>
             </step>
             <step>
